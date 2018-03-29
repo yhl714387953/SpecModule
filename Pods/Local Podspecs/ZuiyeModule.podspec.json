@@ -1,0 +1,62 @@
+{
+  "name": "ZuiyeModule",
+  "version": "1.0.0",
+  "summary": "测试资源文件，png、 xib、 bundle、 a、 framework",
+  "description": "测试资源文件",
+  "homepage": "www.zuiye.com",
+  "license": "MIT",
+  "authors": {
+    "yuhailong": "714387953@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "local"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m,mm}",
+    "Resources/**/*.{h,m}"
+  ],
+  "resources": [
+    "Resources/**/*.{png,xib,bundle,xcassets}",
+    "Classes/**/*.{png,xib,bundle,xcassets}"
+  ],
+  "preserve_paths": "Resources/**/*.{framework,a}",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Security",
+    "CoreLocation",
+    "JavaScriptCore"
+  ],
+  "libraries": [
+    "iconv",
+    "sqlite3",
+    "stdc++",
+    "z",
+    "stdc++"
+  ],
+  "vendored_libraries": [
+    "Resources/lib/**/*.{a}",
+    "Classes/**/*.{a}"
+  ],
+  "vendored_frameworks": "Resources/Framework/**/*.{framework}",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.0"
+    ],
+    "SDWebImage": [
+
+    ],
+    "DZNEmptyDataSet": [
+      "~> 1.8.1"
+    ],
+    "Masonry": [
+      "~> 1.0.2"
+    ]
+  }
+}

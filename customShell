@@ -1,0 +1,7 @@
+baseDirForScriptSelf=$(cd "$(dirname "$0")"; pwd)
+echo "current full path is : ${baseDirForScriptSelf}"
+
+cd ${baseDirForScriptSelf}
+
+pod update --no-repo-update
+

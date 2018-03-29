@@ -1,0 +1,1 @@
+../../../../Modules/ZuiyeModule/Resources/lib/WechtSDK1.8.2_NoPay/WechatAuthSDK.h

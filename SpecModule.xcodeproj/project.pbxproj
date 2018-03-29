@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301C848086C5C163A21035F5 /* libPods-SpecModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58A2C6A14B12553DA9B6A2B /* libPods-SpecModule.a */; };
+		F784333C206C758D00F1C02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F784333B206C758D00F1C02B /* AppDelegate.m */; };
+		F784333F206C758D00F1C02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F784333E206C758D00F1C02B /* ViewController.m */; };
+		F7843342206C758D00F1C02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7843340206C758D00F1C02B /* Main.storyboard */; };
+		F7843344206C758D00F1C02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7843343206C758D00F1C02B /* Assets.xcassets */; };
+		F7843347206C758D00F1C02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7843345206C758D00F1C02B /* LaunchScreen.storyboard */; };
+		F784334A206C758D00F1C02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7843349206C758D00F1C02B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3947764EB3C0661335610EFE /* Pods-SpecModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpecModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpecModule/Pods-SpecModule.release.xcconfig"; sourceTree = "<group>"; };
+		458D56464F9B094DD0E5704D /* Pods-SpecModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpecModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpecModule/Pods-SpecModule.debug.xcconfig"; sourceTree = "<group>"; };
+		A58A2C6A14B12553DA9B6A2B /* libPods-SpecModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpecModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7843337206C758D00F1C02B /* SpecModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F784333A206C758D00F1C02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F784333B206C758D00F1C02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F784333D206C758D00F1C02B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F784333E206C758D00F1C02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7843341206C758D00F1C02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7843343206C758D00F1C02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7843346206C758D00F1C02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7843348206C758D00F1C02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7843349206C758D00F1C02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7843334206C758D00F1C02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301C848086C5C163A21035F5 /* libPods-SpecModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A236FFE5F765737B098B17D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458D56464F9B094DD0E5704D /* Pods-SpecModule.debug.xcconfig */,
+				3947764EB3C0661335610EFE /* Pods-SpecModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C27B0E2E62C0700F45DDA511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58A2C6A14B12553DA9B6A2B /* libPods-SpecModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F784332E206C758D00F1C02B = {
+			isa = PBXGroup;
+			children = (
+				F7843339206C758D00F1C02B /* SpecModule */,
+				F7843338206C758D00F1C02B /* Products */,
+				1A236FFE5F765737B098B17D /* Pods */,
+				C27B0E2E62C0700F45DDA511 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7843338206C758D00F1C02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7843337206C758D00F1C02B /* SpecModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7843339206C758D00F1C02B /* SpecModule */ = {
+			isa = PBXGroup;
+			children = (
+				F784333A206C758D00F1C02B /* AppDelegate.h */,
+				F784333B206C758D00F1C02B /* AppDelegate.m */,
+				F784333D206C758D00F1C02B /* ViewController.h */,
+				F784333E206C758D00F1C02B /* ViewController.m */,
+				F7843340206C758D00F1C02B /* Main.storyboard */,
+				F7843343206C758D00F1C02B /* Assets.xcassets */,
+				F7843345206C758D00F1C02B /* LaunchScreen.storyboard */,
+				F7843348206C758D00F1C02B /* Info.plist */,
+				F7843349206C758D00F1C02B /* main.m */,
+			);
+			path = SpecModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7843336206C758D00F1C02B /* SpecModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F784334D206C758D00F1C02B /* Build configuration list for PBXNativeTarget "SpecModule" */;
+			buildPhases = (
+				01F80E4B5D25DDBA5F7B1D18 /* [CP] Check Pods Manifest.lock */,
+				F7843333206C758D00F1C02B /* Sources */,
+				F7843334206C758D00F1C02B /* Frameworks */,
+				F7843335206C758D00F1C02B /* Resources */,
+				495D427317BA2CE8E676F37E /* [CP] Embed Pods Frameworks */,
+				F05F4DE3E4BA405737AB40AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpecModule;
+			productName = SpecModule;
+			productReference = F7843337206C758D00F1C02B /* SpecModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F784332F206C758D00F1C02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "嘴爷";
+				TargetAttributes = {
+					F7843336206C758D00F1C02B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7843332206C758D00F1C02B /* Build configuration list for PBXProject "SpecModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F784332E206C758D00F1C02B;
+			productRefGroup = F7843338206C758D00F1C02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7843336206C758D00F1C02B /* SpecModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7843335206C758D00F1C02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7843347206C758D00F1C02B /* LaunchScreen.storyboard in Resources */,
+				F7843344206C758D00F1C02B /* Assets.xcassets in Resources */,
+				F7843342206C758D00F1C02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F80E4B5D25DDBA5F7B1D18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpecModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495D427317BA2CE8E676F37E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpecModule/Pods-SpecModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05F4DE3E4BA405737AB40AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpecModule/Pods-SpecModule-resources.sh",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/emoji_1.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/emoji_2.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/Media.xcassets/checkbox.imageset/checkbox@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/Media.xcassets/checkbox.imageset/checkbox@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_enterprise_vip@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_enterprise_vip@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_grassroot@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_grassroot@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_vgirl@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_vgirl@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_vip@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/avatar_vip@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/card_icon_favorite.@3xpng.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/card_icon_favorite@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/card_icon_favorite_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/card_icon_favorite_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_expired@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level1@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level1@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level2@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level2@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level3@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level3@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level4@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level5@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level5@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level6@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/common_icon_membership_level6@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emoticonbutton_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emoticonbutton_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emoticonbutton_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emoticonbutton_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_delete@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_delete@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_delete_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_delete_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_left_normal@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_left_selected@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_mid_normal@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_mid_selected@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_right_normal@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_emotion_table_right_selected@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_image_longimage@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_image_longimage@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_keyboardbutton_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_keyboardbutton_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_keyboardbutton_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_keyboardbutton_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_locatebutton_ready@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_locatebutton_ready@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_locatebutton_succeeded@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_locatebutton_succeeded@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_mentionbutton_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_mentionbutton_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_mentionbutton_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_mentionbutton_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_publicbutton@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_publicbutton@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_picture@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_picture@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_picture@3x.png.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_picture_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_picture_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_toolbar_video@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_trendbutton_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_trendbutton_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_trendbutton_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/compose_trendbutton_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/emoticon_keyboard_magnifier@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/emoticon_keyboard_magnifier@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/list_female@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/list_male@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_add_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_add_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_add_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_add_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_emotion_background@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_emotion_background@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_emotion_background_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/message_emotion_background_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/multimedia_videocard_play@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/multimedia_videocard_play@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose_disable@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_compose_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more_disable.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more_disable@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/navigationbar_more_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_comment_icon_like@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_comment_icon_like_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_comment_icon_more@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_comment_icon_more_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_comment@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_empty_comment@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_empty_like@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_empty_retweet@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_like@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/statusdetail_icon_retweet@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_music@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_music@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_music_stop@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_music_stop@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_play@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_play@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_article@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_book@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_groupcard@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_groupcard@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_location@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_movie@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_music@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_profile@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_profile@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_stock@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_video@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_video@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_web@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_card_small_web@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_comment@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_comment@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_comment_disable@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_comment_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_ip@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_like@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_like@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_like_disable@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_like_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_locate@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_locate@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_more@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_more_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_photo@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_photo@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_picture@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_retweet@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_retweet@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_retweet_disable@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_retweet_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_share@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_share@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_share_disable@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_unlike@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_icon_unlike@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_article@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_article@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_browser@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_browser@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_failure@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_flag_link@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_gif@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_gif@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_longimage@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_image_longimage@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/timeline_link_icon.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/toolbar_compose_highlighted@2x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle/toolbar_compose_highlighted@3x.png",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/Media.xcassets",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Resources/img/ResourceWeibo.bundle",
+				"${PODS_ROOT}/../Modules/ZuiyeModule/Classes/View/ZYTableViewCell.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/emoji_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/emoji_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkbox@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkbox@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_enterprise_vip@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_enterprise_vip@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_grassroot@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_grassroot@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_vgirl@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_vgirl@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_vip@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_vip@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/card_icon_favorite.@3xpng.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/card_icon_favorite@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/card_icon_favorite_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/card_icon_favorite_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_expired@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level1@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level1@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level2@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level2@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level3@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level3@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level4@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level5@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level5@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level6@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common_icon_membership_level6@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emoticonbutton_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emoticonbutton_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emoticonbutton_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emoticonbutton_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_delete@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_delete@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_delete_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_delete_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_left_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_left_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_mid_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_mid_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_right_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_emotion_table_right_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_image_longimage@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_image_longimage@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_keyboardbutton_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_keyboardbutton_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_keyboardbutton_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_keyboardbutton_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_locatebutton_ready@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_locatebutton_ready@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_locatebutton_succeeded@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_locatebutton_succeeded@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_mentionbutton_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_mentionbutton_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_mentionbutton_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_mentionbutton_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_publicbutton@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_publicbutton@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_picture@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_picture@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_picture@3x.png.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_picture_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_picture_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_toolbar_video@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_trendbutton_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_trendbutton_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_trendbutton_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compose_trendbutton_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/emoticon_keyboard_magnifier@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/emoticon_keyboard_magnifier@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/list_female@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/list_male@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_add_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_add_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_add_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_add_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_emotion_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_emotion_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_emotion_background_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/message_emotion_background_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/multimedia_videocard_play@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/multimedia_videocard_play@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_compose_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more_disable.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigationbar_more_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_comment_icon_like@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_comment_icon_like_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_comment_icon_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_comment_icon_more_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_comment@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_empty_comment@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_empty_like@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_empty_retweet@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_like@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/statusdetail_icon_retweet@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_music@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_music@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_music_stop@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_music_stop@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_play@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_play@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_article@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_book@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_groupcard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_groupcard@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_location@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_movie@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_music@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_profile@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_profile@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_stock@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_video@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_video@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_web@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_card_small_web@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_comment@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_comment@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_comment_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_comment_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_ip@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_like@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_like@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_like_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_like_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_locate@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_locate@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_more@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_more_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_photo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_photo@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_picture@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_retweet@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_retweet@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_retweet_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_retweet_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_share@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_share@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_share_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_unlike@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_icon_unlike@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_article@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_article@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_browser@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_browser@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_failure@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_flag_link@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_gif@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_gif@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_longimage@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_image_longimage@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/timeline_link_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/toolbar_compose_highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/toolbar_compose_highlighted@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Media.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ResourceWeibo.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZYTableViewCell.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpecModule/Pods-SpecModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7843333206C758D00F1C02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784333F206C758D00F1C02B /* ViewController.m in Sources */,
+				F784334A206C758D00F1C02B /* main.m in Sources */,
+				F784333C206C758D00F1C02B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7843340206C758D00F1C02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7843341206C758D00F1C02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7843345206C758D00F1C02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7843346206C758D00F1C02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F784334B206C758D00F1C02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F784334C206C758D00F1C02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F784334E206C758D00F1C02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458D56464F9B094DD0E5704D /* Pods-SpecModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2R3U3AYNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Modules/ZuiyeModule/Resources/Framework",
+				);
+				INFOPLIST_FILE = SpecModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Modules/ZuiyeModule/Resources/lib/WechtSDK1.8.2_NoPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuiye.cmcc.SpecModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F784334F206C758D00F1C02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3947764EB3C0661335610EFE /* Pods-SpecModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2R3U3AYNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Modules/ZuiyeModule/Resources/Framework",
+				);
+				INFOPLIST_FILE = SpecModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Modules/ZuiyeModule/Resources/lib/WechtSDK1.8.2_NoPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuiye.cmcc.SpecModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7843332206C758D00F1C02B /* Build configuration list for PBXProject "SpecModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784334B206C758D00F1C02B /* Debug */,
+				F784334C206C758D00F1C02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F784334D206C758D00F1C02B /* Build configuration list for PBXNativeTarget "SpecModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784334E206C758D00F1C02B /* Debug */,
+				F784334F206C758D00F1C02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F784332F206C758D00F1C02B /* Project object */;
+}

@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.0.2)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+  - ZuiyeModule (1.0.0):
+    - AFNetworking (~> 3.2.0)
+    - DZNEmptyDataSet (~> 1.8.1)
+    - Masonry (~> 1.0.2)
+    - SDWebImage
+
+DEPENDENCIES:
+  - ZuiyeModule (from `Modules/ZuiyeModule`)
+
+EXTERNAL SOURCES:
+  ZuiyeModule:
+    :path: Modules/ZuiyeModule
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  ZuiyeModule: 3d4d614bcf8e636ec9a9e20d059a1743e40bcfa5
+
+PODFILE CHECKSUM: 8e89a86d146ec68a2b4f3cb02e145ae8bc0dce78
+
+COCOAPODS: 1.4.0
