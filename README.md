@@ -1,5 +1,5 @@
-# SpecModule
-使用cocoapods定义自己的组件模块
+# 使用cocoapods定义自己的组件模块
+
 
 
 **在命令行里输命令太麻烦，把命令放到脚本里，clone下来后直接双击 `customShell` 即可。**
@@ -72,8 +72,6 @@ s.homepage     = "http://EXAMPLE/ZuiyeModule"
  
  如果你在gitHub上创建项目这个是必选的
  
-
-![license.png](http://upload-images.jianshu.io/upload_images/1656410-a3f95fbe113ef689.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
  ```
   s.license      = "MIT"
@@ -269,4 +267,4 @@ s.dependency 'BaseModel', :path => 'BaseProject/BaseModel'
 pod update --no-repo-update
 ```
 
-当三方的选定了之后就没必要每次都更新pod 索引了，所以我们加上 `--no-repo-update` ，这样只更新本地的，执行速度回很快。
+当三方的选定了之后就没必要每次都更新pod 索引了，所以我们加上 `--no-repo-update` ，这样只更新本地的，执行速度会很快。
